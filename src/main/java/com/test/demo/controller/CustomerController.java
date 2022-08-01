@@ -14,7 +14,6 @@ import com.test.demo.service.CustomerService;
 @RestController
 @RequestMapping(value = "/cus")
 public class CustomerController {
-
     @Autowired
     private CustomerService customerService;
 
